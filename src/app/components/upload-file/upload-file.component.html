@@ -1,0 +1,15 @@
+
+<div class="UploadFile">
+  <div class="container">
+    <form class = "form">
+      <h2>Upload de Fichier</h2>
+
+      <input type="file" class = "inputFile" />
+      <button mat-raised-button color="Link"  (click)="uploadFile($event)" [disabled]="isUploading">
+        {{ isUploading ? 'Transfert en cours...' : 'Uploader' }}
+      </button>
+        <mat-progress-bar mode="indeterminate" *ngIf="isUploading"></mat-progress-bar>
+    </form>
+  </div>
+
+</div>

@@ -1,0 +1,17 @@
+
+.page{
+  padding:  3%;
+}
+.databale{
+  border: 1px solid #a8a8a9;
+
+}
+table{
+width: 90%;
+border-color: black;
+
+}
+
+table th{
+  background-color: #d5d5d5;
+}

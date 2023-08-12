@@ -1,0 +1,30 @@
+.dashboard{
+  overflow: hidden;
+
+}
+
+.dashboard-container {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   gap : 10px 10px 10px;
+   place-items: center;
+   padding: 3%;
+
+}
+
+.chart {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chartPie{
+  width: 70%;
+  padding : 13% ;
+
+}
+.chart-title{
+  padding-bottom: 20px;
+  font-weight: bold;
+}

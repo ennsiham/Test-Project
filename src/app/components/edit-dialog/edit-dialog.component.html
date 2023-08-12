@@ -1,0 +1,29 @@
+<h2 mat-dialog-title>Éditer le candidat</h2>
+<div mat-dialog-content>
+  <form>
+    <mat-form-field>
+      <mat-label>Nom du candidat</mat-label>
+      <input matInput [(ngModel)]="candidate.name" name="name" placeholder="Nom du candidat" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Adresse e-mail</mat-label>
+      <input matInput [(ngModel)]="candidate.email" name="email" placeholder="Adresse e-mail" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Poste</mat-label>
+      <input matInput [(ngModel)]="candidate.position" name="position" placeholder="Poste" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Années d'expérience</mat-label>
+      <input matInput [(ngModel)]="candidate.experienceYears" name="experienceYears" placeholder="Années d'expérience" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Compétences</mat-label>
+      <input matInput [(ngModel)]="candidate.skills" name="skills" placeholder="Compétences" required>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancelClick()">Annuler</button>
+  <button mat-button color="primary" (click)="onSaveClick()">Enregistrer</button>
+</div>

@@ -1,0 +1,42 @@
+.navbar {
+  overflow: hidden;
+  height: 100%;
+
+}
+
+.header {
+  background-color: white;
+  box-shadow: 1px 1px 0px #ebebeb;
+  margin: 2px;
+  padding-left: 1%;
+}
+
+.sidebarre {
+  box-shadow: 1px 1px 1px #ebebeb;
+
+}
+
+button {
+  width: 100%;
+
+  justify-content: left;
+}
+
+.active-button {
+  background-color: rgb(78, 76, 77);
+  color: white !important;
+}
+
+mat-drawer-container {
+  height: 600px;
+
+}
+
+mat-drawer {
+  width: 14%;
+}
+
+.router {
+  background-color: white;
+  height: 100%;
+}

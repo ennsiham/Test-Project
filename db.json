@@ -1,0 +1,124 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "position": "Software Developer",
+      "skills": [
+        "JavaScript",
+        "Node.js",
+        "React"
+      ],
+      "experienceYears": "4"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "position": "Data Analyst",
+      "skills": [
+        "Angular",
+        "SQL",
+        "Spring"
+      ],
+      "experienceYears": 4
+    },
+    {
+      "id": 3,
+      "name": "Emily Brown",
+      "email": "emily@example.com",
+      "position": "UX Designer",
+      "skills": [
+        "Spring",
+        "SQL",
+        "React"
+      ],
+      "experienceYears": 2
+    },
+    {
+      "id": 4,
+      "name": "David Lee",
+      "email": "david@example.com",
+      "position": "Product Manager",
+      "skills": [
+        "Flutter",
+        "Agile",
+        "Spring"
+      ],
+      "experienceYears": 5
+    },
+    {
+      "id": 5,
+      "name": "Sophia Miller",
+      "email": "sophia@example.com",
+      "position": "Software Developer",
+      "skills": [
+        "Spring",
+        "React",
+        "SQLI"
+      ],
+      "experienceYears": 3
+    },
+    {
+      "id": 6,
+      "name": "Daniel Wilson",
+      "email": "daniel@example.com",
+      "position": "Front-end Developer",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "experienceYears": 2
+    },
+    {
+      "id": 7,
+      "name": "Olivia Turner",
+      "email": "olivia@example.com",
+      "position": "Software Developer",
+      "skills": [
+        "Java",
+        "SQLI",
+        "React"
+      ],
+      "experienceYears": 4
+    },
+    {
+      "id": 8,
+      "name": "William Martinez",
+      "email": "william@example.com",
+      "position": "Data Analyst",
+      "skills": [
+        "Spring",
+        "Java",
+        "Angular"
+      ],
+      "experienceYears": 6
+    },
+    {
+      "id": 9,
+      "name": "Ava Garcia",
+      "email": "ava@example.com",
+      "position": "Full-stack Developer",
+      "skills": [
+        "Java",
+        "Spring",
+        "Angular"
+      ],
+      "experienceYears": 3
+    },
+    {
+      "id": 10,
+      "name": "Liam Rodriguez",
+      "email": "liam@example.com",
+      "position": "Full-stack Developer",
+      "skills": [
+        "Node.js",
+        "React",
+        "Java"
+      ],
+      "experienceYears": 4
+    }
+  ]
+}
